@@ -1,11 +1,28 @@
-# Forest_fire_detection
+# Forest fire detection By Convolutional Neural Network: 
 ![](https://media1.giphy.com/media/QBdoItysjQSlC5IhOZ/giphy.gif?cid=ecf05e47vy9uus6ftpqyiqrskzreedc3jyrjk03ts6qvdht6&rid=giphy.gif&ct=g)
- - This Project Is To Implement Forest Fire Detection By Cnn .Used Basic Pretrained Model  To Train Real Life Image For Classification and Object Detection.
+
+## Introduction : 
+- This Project Is To Implement Forest Fire Detection By Cnn .Used Basic Pretrained Model  To Train Real Life Image and video For Classification and Object Detection.
  - Libraries Used In This Project Keras,Matplotlib,numpy,Pandas,Computer Vision,Tensorflow,ImageIO.
  - This Model Has Achieved 98 % Accuracy By Training And Testing the Model. 
  - This Is the First And Basic version Of this Project. 
  
- # Future Goals Regarding This Project
-  1. Reducing Code Complexity - As There Is Lots Of Lines Of Code Which is Hard To Understand By beginners And In Further Version Of This Project Code Refactoring And Easily Readable By Beginners To Understand Core Concepts Of This Project 
-  2. Usage Of Latest Pretrained Model - As To Train This Project It Took Lots Of Time And By Introducing Latest Pretrained Model(EfficientNetV2L).By Using This We Can Achieve 99+ % Accuracy With Lower Iteration To Reduce Both Computational Strain And Saves Time.
-  3.  Provide End To End FireDetection Model - Already This Model Can Classify and Detect different Images Containing Fire And By Using Further Computer Vision Concepts And Introduce Latest Object Detection Model(YOLO V7) 
+## Project workflow :
+- Download data - [https://github.com/prathyyyyy/Forest-Fire-Detection/blob/main/setup/setup_datasets.py]
+- Data Analysis - [https://github.com/prathyyyyy/Forest-Fire-Detection/tree/main/Data%20And%20Performance%20Analysis]
+- Neural Network - [https://github.com/prathyyyyy/Forest-Fire-Detection/blob/main/custom_model/cladoh.py]
+- Pretrained Model  -[https://github.com/prathyyyyy/Forest-Fire-Detection/blob/main/setup/naive_approach.py]
+- Transfer learning and  Data Augmentation - [https://github.com/prathyyyyy/Forest-Fire-Detection/blob/main/transfer_learning.py]
+- Video Fire detection - [https://github.com/prathyyyyy/Forest-Fire-Detection/blob/main/video_annotation.py]
+- Project Launcher - [https://github.com/prathyyyyy/Forest-Fire-Detection/commit/5452385558a01cc2cda4ec4d0f1febfbb0811f2a]
+
+## Major Libraries and framework : 
+1. Tensorflow and keras - This is an AI and Deep Learning library used in this project for creating neural network and pretrained model.
+2. Numpy , pandas and matplotlib - This is used for data analysis , though for deep learning project it is not mandatory ,I have used just to give quick insight about data used in this project.
+3. ImageIO , Computer Vision - This library is used in this project to open , process the image and video .
+
+ 
+ ## Future Goals Regarding This Project
+  1. Reducing Code Complexity - As there is lots of lines of code which is hard to understand by beginners and in further version of this project code refactoring and easily readable by beginners to understand core concepts of this project 
+  2. usage of latest pretrained model - as to train this project it took lots of time and by introducing latest pretrained model (EfficientNetV2L) .by using this we can achieve 99+ % accuracy with lower iteration to reduce both computational strain and saves time.
+  3.  Provide end to end fire detection model - already this model can classify and detect different images containing fire and by using further computer vision concepts and introduce latest object detection Model(YOLO V7).

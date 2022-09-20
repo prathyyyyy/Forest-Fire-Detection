@@ -19,8 +19,17 @@
 ## Major Libraries and framework : 
 1. Tensorflow and keras - This is an AI and Deep Learning library used in this project for creating neural network and pretrained model.
 2. Numpy , pandas and matplotlib - This is used for data analysis , though for deep learning project it is not mandatory ,I have used just to give quick insight about data used in this project.
-3. ImageIO , Computer Vision - This library is used in this project to open , process the image and video .
+3. ImageIO , Computer Vision (opencv) - This library is used in this project to open , process the image and video .
 
+## Project tasks : 
+1. Download and setup dataset .
+2. Perform data analysis for this project. 
+3. Create neural Network from scratch . 
+4. Setup pretrained model .
+5. Data augmenting to extend dataset and enhance training. 
+6. By open-cv and imageIO open , proecess image and video.
+7. Test and evaluate.
+8. Launch the model.
  
  ## Future Goals Regarding This Project
   1. Reducing Code Complexity - As there is lots of lines of code which is hard to understand by beginners and in further version of this project code refactoring and easily readable by beginners to understand core concepts of this project 

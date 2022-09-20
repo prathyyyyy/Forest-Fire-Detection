@@ -1,4 +1,5 @@
 # Forest_fire_detection
+![](https://media1.giphy.com/media/QBdoItysjQSlC5IhOZ/giphy.gif?cid=ecf05e47vy9uus6ftpqyiqrskzreedc3jyrjk03ts6qvdht6&rid=giphy.gif&ct=g)
  - This Project Is To Implement Forest Fire Detection By Cnn .Used Basic Pretrained Model  To Train Real Life Image For Classification and Object Detection.
  - Libraries Used In This Project Keras,Matplotlib,numpy,Pandas,Computer Vision,Tensorflow,ImageIO.
  - This Model Has Achieved 98 % Accuracy By Training And Testing the Model. 

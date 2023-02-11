@@ -35,5 +35,5 @@
  
  ## Future Goals Regarding This Project
   1. Reducing Code Complexity - As there is lots of lines of code which is hard to understand by beginners and in further version of this project code refactoring and easily readable by beginners to understand core concepts of this project 
-  2. usage of latest pretrained model - as to train this project it took lots of time and by introducing latest pretrained model (EfficientNetV2L) .by using this we can achieve 99+ % accuracy with lower iteration to reduce both computational strain and saves time.
+  2. usage of latest pretrained model - as to train this project it took lots of time and by introducing latest pretrained model (ConvNeXtXLarge) .by using this we can achieve 99+ % accuracy with lower iteration to reduce both computational strain and saves time.
   3.  Provide end to end fire detection model - already this model can classify and detect different images containing fire and by using further computer vision concepts and introduce latest object detection Model(YOLO V7).
